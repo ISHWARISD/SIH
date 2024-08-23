@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const Navbar = () => {
   return (
-    <nav style={{ backgroundColor: '#6EACDA' }} className="p-4">
+    <nav style={{ backgroundColor: '#03346E' }} className="p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <a href="#" className="text-white text-2xl font-bold">BailBridgers</a>
