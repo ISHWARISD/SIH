@@ -1,11 +1,13 @@
-import Home from "./components/Pages/Home";
-import LawyerDashboard from "./components/Pages/LawyerDashboard";
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import LawyerDashboard from './components/Pages/LawyerDashboard';
 
-export default function App() {
+function App() {
   return (
-    <>
-     
-      <LawyerDashboard/>
-    </>
+    <Router>
+      <LawyerDashboard />
+    </Router>
   );
 }
+
+export default App;
