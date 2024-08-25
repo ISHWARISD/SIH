@@ -21,7 +21,7 @@ const Dashboard = () => {
   return (
     <div className="flex flex-col lg:flex-row min-h-screen bg-white">
       {/* Sidebar */}
-      <div className="lg:w-1/4 w-full bg-[#03346E] text-white lg:flex lg:flex-col lg:justify-between lg:fixed lg:h-screen lg:top-0 lg:left-0 lg:p-6">
+      <div className="lg:w-1/4 w-full bg-[#00008B] text-white lg:flex lg:flex-col lg:justify-between lg:fixed lg:h-screen lg:top-0 lg:left-0 lg:p-6">
         <div>
           <h2 className="text-3xl font-bold mb-6 text-center lg:text-left">Undertrial Dashboard</h2>
           <ul className="space-y-4">
